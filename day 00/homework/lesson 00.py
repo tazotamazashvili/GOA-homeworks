@@ -88,3 +88,5 @@ end_fill()
 
 
 exitonclick()
+
+#booleg, exitonclick error
