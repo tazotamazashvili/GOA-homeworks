@@ -13,8 +13,8 @@ second_string = "გამარჯობა"
 second_string_repeat = "ელემენტი" * 10
 
 
-first = 1
-second = 999
+first = 201
+second = 799
 merge = int(first + second)
 
 
