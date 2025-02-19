@@ -1,9 +1,9 @@
 # დავალება 1
 
-number1 = input("chawere pirveli ricxvi: ")
-number2 = input("chawere meore ricxvi: ")
-number3 = input("chawere mesame ricxvi: ")
-number4 = input("chawere meotxe ricxvi: ")
+number1 = input("put in the 1st number: ")
+number2 = input("put in the 2nd number: ")
+number3 = input("put in the 3rd number: ")
+number4 = input("put in the 4th number: ")
 
 sul = (number1 + number2 + number3 + number4) / 4
 
