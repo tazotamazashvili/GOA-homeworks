@@ -1,9 +1,9 @@
 # დავალება 1
 
-number1 = input("put in the 1st number: ")
-number2 = input("put in the 2nd number: ")
-number3 = input("put in the 3rd number: ")
-number4 = input("put in the 4th number: ")
+number1 = float(input("put in the 1st number: "))                           
+number2 = float(input("put in the 2nd number: "))
+number3 = float(input("put in the 3rd number: "))
+number4 = float(input("put in the 4th number: "))
 
 sul = (number1 + number2 + number3 + number4) / 4
 
