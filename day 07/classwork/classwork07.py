@@ -31,6 +31,6 @@ num = int(input("chawere ricxvi"))
 i = 10
 
 if num %2 == 0:
-    print("luwi" * i)
+    print("yes" * i)
 else:
-    print("kentia")
+    print("no")
