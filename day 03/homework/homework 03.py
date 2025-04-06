@@ -21,6 +21,6 @@ print("mogesalmebit " + firstname + " " + lastname)
 num5 = input("put in the first number: ")
 num6 = input("put in the second number: ")
 
-result = num5 + "😊" + num6
+result = num5 + "😊!" + num6
 
 print("result: " + result)
