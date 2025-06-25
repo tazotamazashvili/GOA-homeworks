@@ -1,0 +1,2 @@
+# katashi mocewmulia ricxvebis sia saidanac unda amoigo yvelaze patara ricxvi tu sia carielia unda dabrundes carieli sia da danarcheni ricxvebis tanmimdevroba ar unda sheicvalos
+# tu weria [5, 3, 2, 1, 4] emoishleba 1 da miigeba [5, 3, 2, 4]
