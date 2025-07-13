@@ -1,0 +1,30 @@
+.container {
+    border: 2px solid white;
+    padding: 20px;
+  
+    background-color: white;
+  }
+  
+  .box {
+    width: 300px;
+    height: 100px;
+  
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .static-box {
+    background-color: blue;
+    position: static;
+  }
+  
+  .relative-box {
+    background-color: red;
+    position: relative;
+  
+    top: 20px;
+    left: 20px;
+  }
