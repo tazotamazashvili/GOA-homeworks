@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.b {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 50px;
+}

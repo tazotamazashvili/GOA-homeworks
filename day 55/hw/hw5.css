@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.b {
+    display: inline;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.c {
+    display: inline-block;
+        height: 200px;
+    width: 200px;
+    background-color: purple;
+}

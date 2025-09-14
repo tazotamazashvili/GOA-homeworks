@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Google Sans Code";
+  src: url("/fonts/GoogleSansCode-Variable.woff2") format("woff2-variations"),
+       url("/fonts/GoogleSansCode-Regular.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: "Google Sans Code", monospace;
+  font-weight: 500;
+}
+
+
