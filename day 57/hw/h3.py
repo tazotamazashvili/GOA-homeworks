@@ -1,0 +1,7 @@
+def is_even(number):
+    if number % 2 == 0:
+        print("Number " + str(number) + " is even")
+    else:
+        print("Number " + str(number) + " is odd")
+
+is_even(5)

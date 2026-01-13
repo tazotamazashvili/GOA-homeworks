@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #f5f7ff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+    font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+}
+
+.cont {
+  background: white;
+  border-radius: 25px;
+
+  display: flex;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+
+  overflow: hidden;
+  max-width: 700px;
+  width: 600px;
+}
+
+.result-section {
+  background: linear-gradient(to bottom, #4218ffd2, #322cea);
+  color: white;
+
+  padding: 2rem;
+
+  flex: 1;
+  text-align: center;
+  border-radius: 25px 0 0 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.result-section h2 {
+  margin-bottom: 1rem;
+
+  font-size: 1.1rem;
+  color: #c7bfff;
+}
+
+.circle {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.asi {
+  font-size: 0.9rem;
+  color: #c7bfff;
+}
+
+.result-section h3 {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #c7bfff;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.sum {
+  padding: 2rem;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary-section h3 {
+  margin-bottom: 1.5rem;
+  color: #303b5a;
+}
+
+.sums {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.sums.reaction {
+  background-color: #fff6f5;
+  color: #d56a6a;
+}
+
+.sums.memory {
+  background-color: #fffbf2;
+  color: #ebc959;
+}
+
+.sums.verbal {
+  background-color: #f2fbfa;
+  color: #33a68f;
+}
+
+.sums.visual {
+  background-color: #f3f3fd;
+  color: #3c3bbd;
+}
+
+
+.continue {
+  margin-top: auto;
+  padding: 1rem;
+
+  width: 100%;
+  background-color: #1f2a47e8;
+  color: white;
+
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+
+  cursor: pointer;
+}

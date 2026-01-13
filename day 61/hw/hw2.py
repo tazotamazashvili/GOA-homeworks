@@ -1,0 +1,1 @@
+# import random shemoqavs random biblioteka romelic amatebs bevr funqcias

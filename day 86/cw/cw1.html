@@ -1,0 +1,101 @@
+<div class="background">
+    <div class="window">
+      <div class="header">
+        <div class="dot green"></div>
+        <div class="dot yellow"></div>
+        <div class="dot red"></div>
+      </div>
+      
+      <div class="content">
+        <div class="bar yellow-bar"></div>
+        <div class="bar red-bar"></div>
+        <div class="bar green-bar"></div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <style>
+  
+      :root {
+    --bg-green: #63a960;
+    --window-dark: #263a3f;
+    --btn-green: #70b46d;
+    --btn-yellow: #f1b740;
+    --btn-red: #d85440;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .background {
+    width: 400px;
+    height: 300px;
+    background-color: var(--bg-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .window {
+    width: 260px;
+    height: 180px;
+    background-color: var(--window-dark);
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .header {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .green { background-color: var(--btn-green); }
+  .yellow { background-color: var(--btn-yellow); }
+  .red { background-color: var(--btn-red); }
+  
+  /* Bars Section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bar {
+    height: 18px;
+    border-radius: 2px;
+  }
+  
+  .yellow-bar { 
+    width: 60px; 
+    background-color: var(--btn-yellow); 
+  }
+  
+  .red-bar { 
+    width: 100px; 
+    background-color: var(--btn-red); 
+  }
+  
+  .green-bar { 
+    width: 140px; 
+    background-color: var(--btn-green); 
+  }
+  </style>

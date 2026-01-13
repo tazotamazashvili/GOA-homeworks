@@ -1,0 +1,5 @@
+/*
+
+obiqeti javascripti aris cvladi romelic inaxavs bevr cvlads ertad
+
+*/

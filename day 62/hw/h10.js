@@ -1,0 +1,1 @@
+// prompt funqcia users ekitxeba frchxilebshi chawer shekitxvas da useris mier chawer pasuxs cvladshi inaxavs

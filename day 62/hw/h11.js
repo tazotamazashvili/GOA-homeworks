@@ -1,0 +1,1 @@
+// alert funqcias ekranze gamoaqvs "shemishvna" sadac sheidzleba chavwerot nebismeri shetyobineba

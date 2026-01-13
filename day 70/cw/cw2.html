@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+
+
+        body {
+      font-family: sans-serif;
+      background-color: #3b76aa;
+      padding: 20px;
+    }
+
+
+    .box {
+      width: 120px;
+      height: 120px;
+      background-color: rgb(151, 223, 247);
+      color: rgb(8, 8, 63);
+      border-radius: 10px;
+      margin: 10px;
+      font-weight: bold;
+      border: 2px solid #1ea5ee;
+      transition: 0.1s;
+    }
+
+    .box:hover {
+      transform: scale(1.5);
+      background-color: rgb(105, 245, 105);
+      color: rgb(2, 27, 2);
+      cursor: pointer;
+    }
+    </style>
+
+      <div class="box">1</div>
+      <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+  <div class="box">8</div>
+  <div class="box">9</div>
+  <div class="box">10</div>
+
+
+  <script>
+    const boxes = document.querySelectorAll(".box");
+
+    console.log(boxes);
+
+    boxes.forEach((box) => {
+      box.style.backgroundColor = "lightgreen";
+    });
+  </script>
+
+
+
+</body>
+</html>

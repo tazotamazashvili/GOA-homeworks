@@ -1,0 +1,1 @@
+// do while loop asrulebs pirobas minimum ertxel shemdeg amowmebs pirobas da agrdzelebs sanam piroba weshmaritia
