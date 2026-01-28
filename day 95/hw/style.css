@@ -1,0 +1,129 @@
+:root {
+    --bg: #F9F5FF;
+    --text: #302E38;
+    --card: #FFFFFF;
+    --primary: #8E7CFB;
+    --accent: #FFB4A2;
+    --danger: #E76161;
+  
+    --radius: 12px;
+    --shadow: 0px 6px 12px rgba(0,0,0,.08);
+  }
+  
+  .dark {
+    --bg: #1D1B25;
+    --text: #ECE9F1;
+    --card: #252232;
+    --primary: #B9A6FF;
+    --accent: #FF9E8B;
+    --danger: #FF6A6A;
+    --shadow: 0px 6px 14px rgba(0,0,0,.4);
+  }
+  
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", sans-serif;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .3s ease;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: var(--primary);
+  }
+  
+  input {
+    padding: 10px 14px;
+    width: 240px;
+    border-radius: var(--radius);
+    border: 1px solid rgba(0,0,0,.15);
+    outline: none;
+    transition: .2s;
+    background: white;
+  }
+  
+  input:focus {
+    border-color: var(--primary);
+  }
+  
+  button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  button:hover {
+    opacity: .9;
+    transform: translateY(-1px);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 320px;
+  }
+  
+  li {
+    background: var(--card);
+    box-shadow: var(--shadow);
+    padding: 14px 16px;
+    border-radius: var(--radius);
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .2s;
+  }
+  
+  li:hover {
+    transform: translateY(-2px);
+  }
+  
+  .done > span:first-child {
+    text-decoration: line-through;
+    opacity: .55;
+  }
+  
+  .done {
+    border-left: 5px solid var(--accent);
+  }
+  
+  li div span {
+    margin-left: 12px;
+    cursor: pointer;
+    opacity: .7;
+    font-size: 18px;
+    transition: .2s;
+  }
+  
+  li div span:hover {
+    opacity: 1;
+  }
+  
+  #themeBtn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    opacity: .75;
+    transition: .2s;
+  }
+  
+  #themeBtn:hover {
+    opacity: 1;
+  }
+  
+  @media (max-width: 500px) {
+    ul { width: 100%; }
+  }
+  

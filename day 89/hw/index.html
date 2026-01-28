@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mortgage Repayment Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mortgage Repayment Calculator</h1>
+
+    <form id="mortgage-form" novalidate>
+      <div class="form-control">
+        <label for="loan-amount">Loan Amount (€)</label>
+        <input type="number" id="loan-amount" name="loanAmount" min="0" step="any" required />
+        <small class="error">Please enter a loan amount</small>
+      </div>
+
+      <div class="form-control">
+        <label for="interest-rate">Interest Rate (%)</label>
+        <input type="number" id="interest-rate" name="interestRate" min="0" step="any" required />
+        <small class="error">Please enter the interest rate</small>
+      </div>
+
+      <div class="form-control">
+        <label for="term-years">Term (years)</label>
+        <input type="number" id="term-years" name="termYears" min="0" step="1" required />
+        <small class="error">Please enter the term in years</small>
+      </div>
+
+      <button type="submit">Calculate Repayments</button>
+    </form>
+
+    <section id="results" aria-live="polite">
+      <p class="result"><strong>Monthly Payment:</strong> <span id="monthly-payment">—</span></p>
+      <p class="result"><strong>Total Payment:</strong> <span id="total-payment">—</span></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
